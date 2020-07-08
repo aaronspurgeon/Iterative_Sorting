@@ -27,3 +27,23 @@ def binary_search(arr, target):
                 low = middle + 1
 
     return -1  # not found
+
+
+# def binary_search(arr, target):
+#     high = len(arr) - 1
+#     low = 0
+#     middle = (high + low) // 2
+
+#     if arr[middle] == target:
+#         # do something
+#         return middle
+#     elif arr[middle] > target:
+#         new_arr = arr[:middle]
+#         print(f'middle: {middle}')
+#         binary_search(new_arr, target)
+#     elif arr[middle] < target:
+#         new_arr = arr[middle + 1:]
+#         print(f'middle: {middle}')
+#         binary_search(new_arr, target)
+#     else:
+#         return -1
